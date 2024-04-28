@@ -6,6 +6,7 @@
 Welcome to Speech Analyzer, a Streamlit-based app that analyzes your speech, corrects grammar, and provides feedback using Google's Generative AI API.
 
 **Features**
+
 Speech recognition using the speech_recognition library.
 Text-to-speech functionality powered by gTTS (Google Text-to-Speech).
 Interactive user interface with Streamlit.
@@ -14,7 +15,8 @@ Getting Started
 Prerequisites
 Make sure you have Python installed on your machine. You can download it from python.org.
 
-Installation
+**Installation**
+
 Clone the repository:
 git clone https://github.com/sreys10/SpeechAnalyzer.git
 Navigate to the project directory:
