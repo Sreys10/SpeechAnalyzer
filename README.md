@@ -7,6 +7,7 @@
 
 Welcome to Speech Analyzer, a Streamlit-based app that analyzes your speech, corrects grammar, and provides feedback using Google's Generative AI API.
 
+
 **Features**
 
 Speech recognition using the speech_recognition library.
@@ -17,11 +18,13 @@ Interactive user interface with Streamlit.
 
 Grammar correction using Google's Generative AI API.
 
+
 **Getting Started**
 
 **Prerequisites**
 
 Make sure you have Python installed on your machine. You can download it from python.org.
+
 
 **Installation**
 
@@ -45,15 +48,18 @@ streamlit run app.py
 
 The app will open in your default web browser.
 
+
 **Usage**
 
 Click the "Speak" button and say something.
 
 The app will analyze your speech, correct any grammar issues, and provide feedback.
 
+
 **Contributing**
 
 Contributions are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or submit a pull request.
+
 
 **Authors**
 
@@ -67,9 +73,11 @@ Devyani Deshpande
 
 Beryl Dsouza 
 
+
 **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 **Acknowledgments**
 
