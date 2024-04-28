@@ -20,12 +20,15 @@ Make sure you have Python installed on your machine. You can download it from py
 Clone the repository:
 
 git clone https://github.com/sreys10/SpeechAnalyzer.git
+
 Navigate to the project directory:
 
 cd SpeechAnalyzer
+
 Install the required packages:
 
 pip install -r Requirements.txt
+
 Running the App
 
 Run the Streamlit app using the following command:
