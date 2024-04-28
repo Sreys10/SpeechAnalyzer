@@ -1,11 +1,11 @@
 # SpeechAnalyzer
 
-Speech Analyzer
-Speech Analyzer
+![image](https://github.com/Sreys10/SpeechAnalyzer/assets/121373734/96dcd5e8-3d1b-472f-8abe-25b178818418)
+
 
 Welcome to Speech Analyzer, a Streamlit-based app that analyzes your speech, corrects grammar, and provides feedback using Google's Generative AI API.
 
-Features
+**Features**
 Speech recognition using the speech_recognition library.
 Text-to-speech functionality powered by gTTS (Google Text-to-Speech).
 Interactive user interface with Streamlit.
@@ -16,41 +16,34 @@ Make sure you have Python installed on your machine. You can download it from py
 
 Installation
 Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/speech-analyzer.git
+git clone https://github.com/sreys10/SpeechAnalyzer.git
 Navigate to the project directory:
-bash
-Copy code
-cd speech-analyzer
+cd SpeechAnalyzer
 Install the required packages:
-bash
-Copy code
-pip install -r requirements.txt
-Running the App
+pip install -r Requirements.txt
+Running the App:
 Run the Streamlit app using the following command:
-
-bash
-Copy code
 streamlit run app.py
 The app will open in your default web browser.
 
-Usage
+**Usage**
 Click the "Speak" button and say something.
 The app will analyze your speech, correct any grammar issues, and provide feedback.
-Contributing
+
+**Contributing**
 Contributions are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or submit a pull request.
 
-Authors
-Niranjan Chirde (SEA-31)
-Shreyas Deshmukh (SEA-36)
-Swanand Deshpande (SEA-37)
-Devyani Deshpande (SEA-38)
-Beryl Dsouza (SEA-43)
-License
+**Authors**
+Niranjan Chirde 
+Shreyas Deshmukh 
+Swanand Deshpande 
+Devyani Deshpande 
+Beryl Dsouza 
+
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+**Acknowledgments**
 Streamlit for the amazing app development framework.
 SpeechRecognition for speech recognition capabilities.
 gTTS for text-to-speech functionality.
