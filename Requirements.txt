@@ -1,5 +1,0 @@
-streamlit==0.99.0
-speech_recognition==3.8.1
-gTTS==2.2.3
-pygame==2.1.2
-google==3.0.0
