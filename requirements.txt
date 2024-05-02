@@ -5,3 +5,4 @@ pygame==2.5.2
 google.generativeai== 0.5.2
 PyAudio==0.2.14
 disutils==1.4.32.post2
+Python==3.12.3
