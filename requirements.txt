@@ -1,5 +1,5 @@
 streamlit==1.34.0
-speechrecognition==3.10.3
+speech_recognition==3.10.3
 gTTS==2.5.1
 pygame==2.5.2
 google.generativeai== 0.5.2
