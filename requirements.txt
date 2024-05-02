@@ -4,5 +4,5 @@ gTTS==2.5.1
 pygame==2.5.2
 google.generativeai== 0.5.2
 PyAudio==0.2.14
-setuptools
+setuptools==69.5.1
 
