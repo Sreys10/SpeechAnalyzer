@@ -109,11 +109,11 @@ def footer():
     st.markdown(footer_style, unsafe_allow_html=True)
 
     team_names = [
-        "Niranjan Chirde (SEA-31)",
-        "Shreyas Deshmukh (SEA-36)",
-        "Swanand Deshpande (SEA-37)",
-        "Devyani Deshpande (SEA-38)",
-        "Beryl Dsouza (SEA-43)"
+        "Niranjan Chirde ",
+        "Shreyas Deshmukh ",
+        "Swanand Deshpande ",
+        "Devyani Deshpande ",
+        "Beryl Dsouza "
     ]
     team_str = " | ".join(team_names)  # Join the names with a separator
 
