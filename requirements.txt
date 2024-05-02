@@ -3,3 +3,4 @@ speechrecognition==3.10.3
 gTTS==2.5.1
 pygame==2.5.2
 google.generativeai== 0.5.2
+pyaudio==0.2.14
