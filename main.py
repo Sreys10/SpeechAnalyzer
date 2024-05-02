@@ -109,11 +109,11 @@ def footer():
     st.markdown(footer_style, unsafe_allow_html=True)
 
     team_names = [
-        "Niranjan Chirde ",
-        "Shreyas Deshmukh ",
-        "Swanand Deshpande ",
-        "Devyani Deshpande ",
-        "Beryl Dsouza "
+        "Niranjan Chirde",
+        "Shreyas Deshmukh",
+        "Swanand Deshpande",
+        "Devyani Deshpande",
+        "Beryl Dsouza"
     ]
     team_str = " | ".join(team_names)  # Join the names with a separator
 
@@ -170,7 +170,7 @@ def recognize_speech():
         st.write("Please wait, I'm listening...")
         audio = recognizer.adjust_for_ambient_noise(source, duration=0.2)
         recognizer.pause_threshold = 1
-        audio = recognizer.listen(source, timeout=5, phrase_time_limit=20)
+        audio = recognizer.listen(source, timeout=5, phrase_time_limit=8)
         st.write("Analyzing your speech...")
         try:
             text = recognizer.recognize_google(audio).lower()
@@ -239,61 +239,3 @@ if isspeak:
 
 
 
-# Add animated GIF to the left side
-st.sidebar.markdown(
-    """
-    <img src="https://i.pinimg.com/originals/62/26/43/6226435516042edfe1a4514a44e2023a.gif" width="100%" />
-    """,
-    unsafe_allow_html=True
-)
-
-# Add animated GIF to the right side
-# Add animated GIF to the right side
-# Add animated GIF to the right side
-st.markdown(
-    """
-    <style>
-   .right-gif {
-        position: fixed;
-        top: 30%;
-        right: -15%;
-        transform: translateY(-50%);
-        width: 40%;
-        height: auto;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-st.markdown(
-    """
-    <div class="right-gif">
-        <img src="https://i.pinimg.com/originals/62/26/43/6226435516042edfe1a4514a44e2023a.gif" width="50%" />
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-# Add animated GIF to the top left corner
-st.markdown(
-    """
-    <style>
-   .top-left-gif {
-        position: fixed;
-        top: 15%;
-        left: 5%;
-        width: 20%;
-        height: auto;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-st.markdown(
-    """
-    <div class="top-left-gif">
-        <img src="https://cdn.dribbble.com/users/1144754/screenshots/2978120/is-to-identify.gif" width="100%" />
-    </div>
-    """,
-    unsafe_allow_html=True
-)
