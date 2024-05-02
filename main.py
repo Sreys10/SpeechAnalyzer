@@ -158,7 +158,7 @@ isspeak = col3.button("Speak")
 
 # Set up pygame for audio playback
 pygame.init()
-#pygame.mixer.init()
+pygame.mixer.init()
 
 # Set up function for speech recognition and correction
 def recognize_speech():
