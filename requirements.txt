@@ -3,7 +3,7 @@ speechrecognition==3.10.3
 gTTS==2.5.1
 pygame==2.5.2
 google.generativeai== 0.5.2
-pyaudio
+pyaudio==0.2.11
 setuptools==69.5.1
-portaudio19-dev
+
 
