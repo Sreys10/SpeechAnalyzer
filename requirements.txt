@@ -3,3 +3,4 @@ speechrecognition
 gTTS
 pygame
 google.generativeai
+setuptools
